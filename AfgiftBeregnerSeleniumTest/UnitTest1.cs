@@ -10,7 +10,7 @@ namespace AfgiftBeregnerSeleniumTest
     [TestClass]
     public class UnitTest1
     {
-        IWebDriver driver = new ChromeDriver(@"D:\source\repos\AfgiftBeregnerSeleniumTest\AfgiftBeregnerSeleniumTest\bin\Debug\netcoreapp2.1");
+        IWebDriver driver = new ChromeDriver(@"D:\source\repos\AfgiftBeregnerSeleniumTest\chromedriver_win32");
 
         [TestInitialize]
         public void TestSetUp()
